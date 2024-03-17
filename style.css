@@ -1,0 +1,116 @@
+*{
+    margin:none;
+    padding:none;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    /* min-width: 200vh; */
+    background-image: url("https://images.pexels.com/photos/7957992/pexels-photo-7957992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+}
+/* container */
+.container{
+    background-color:rgba(139, 162, 180, 0.193);
+    border-radius: 20px;
+    position:relative;
+    left:50px;
+    top:80px;
+    width: 400px;
+    height: 500px;   
+}
+
+.container .loginLabel{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+}
+input::placeholder{
+    color:rgba(255, 255, 255, 0.8);
+    font-weight: lighter;
+   
+}
+
+.inputbox{
+  position: relative;
+    width: 95%;
+    height: 35px;
+    margin: 10px;
+    background-color:rgba(128, 128, 128, 0.332);
+    border-radius: 20px;
+    
+    border:none;
+}
+.inputbox input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    padding-left: 15px;
+    outline: none;
+    border:2px grey solid;
+    border-radius:20px;
+}
+.inputbox i{
+
+    position: absolute;
+    right:30px ;
+    top:30%;
+}
+.loginButton{
+    margin: 20px;
+    position: relative;
+    left:30%;
+    width: 30%;
+    height: 30px;
+    border: 2px black solid;
+    border-radius: 19px;
+    background-color: rgba(127, 126, 126, 0.586);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.rememberme-forgetpasssword{
+    margin:20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.forgetpassword,.signupLabel{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+   text-decoration: underline; 
+    font-weight: bolder;
+}
+.noAccount-signup{
+    display: flex;
+    justify-content: center;
+}
+.signupLabel{
+    position: relative;
+    left:10px;
+}
+.hrline{
+    margin: 30px;
+}
+.signinwith{
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.fb,.github,.google{
+    color:black;
+}
